@@ -17,5 +17,10 @@ public class InheritanceTester {
         System.out.println(square.calculateParameter()); //call override method in child
         square.print("nn");
         square.print();
+
+        Mother mother= new Mother();
+        mother.setName("Noura");
+        System.out.println(mother.getName());
+        System.out.println(mother.getGender());
     }
 }

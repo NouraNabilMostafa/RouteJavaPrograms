@@ -6,6 +6,7 @@ public class Person {
     private String gender;
     public Person(){
         System.out.println("I am person default constructor");
+        setGender("female person");
     }
     public Person(String name){
         System.out.println("I am person prameterized constructor");
