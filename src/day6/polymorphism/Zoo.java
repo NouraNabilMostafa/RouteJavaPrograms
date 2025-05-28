@@ -2,6 +2,8 @@ package day6.polymorphism;
 
 public class Zoo {
     public static void main(String[] args) {
+        Animal a= new Animal();
+        a.makeSound();
         Dog rockey=new Dog();
         rockey.makeSound();
         rockey.bite();
