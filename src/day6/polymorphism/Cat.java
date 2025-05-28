@@ -1,6 +1,6 @@
-package day6;
+package day6.polymorphism;
 
-public class Cat extends Animal{
+public class Cat extends Animal {
     @Override
     public void makeSound() {
         System.out.println("Meow");

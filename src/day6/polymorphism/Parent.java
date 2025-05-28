@@ -1,10 +1,11 @@
-package day6;
+package day6.polymorphism;
 
 public class Parent {
-    public void show(String i){
+    //overloading
+    public void show(String s){
         System.out.println("parent string");
     }
-    public void show(Object i){
+    public void show(Object o){
         System.out.println("parent object");
     }
 }
