@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Grades {
     private static int [] grades;
-    private static Scanner scanner=new Scanner(System.in);
+    private static Scanner scanner= new Scanner(System.in);
 
     public static void main(String[] args) {
         System.out.println("How many grades do you want to enter ");
